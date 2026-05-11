@@ -12,3 +12,4 @@ El cambio climático se desencadena principalmente por la contaminación produci
 4. ¿Cómo podemos frenar el cambio climático?
 Podemos frenar el cambio climático reduciendo la contaminación y cuidando el medio ambiente. Algunas acciones importantes son ahorrar energía, usar transporte público o bicicleta, reciclar, sembrar árboles, reducir el uso de plásticos y utilizar energías renovables como la solar y la eólica. Además, es importante crear conciencia para que más personas ayuden a proteger el planeta.
 
+Mi proyecto será una pagina web informativa tendra ejemplos del cuidado del medio ambiente, cambio climatico y por qué es importante.
