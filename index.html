@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medio Ambiente</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header>
+        <h1>🌎 Cuidado del Medio Ambiente 🌎</h1>
+
+    <div class="menu-icon" onclick="mostrarMenu()">
+        CLICK AQUÍ PARA VER EL MENÚ
+    </div>
+
+    <nav id="menu">
+
+        <a href="#inicio">Inicio</a>
+        <a href="#clima">Cambio Climático</a>
+        <a href="#cuidados">Cuidados</a>
+        <a href="#importancia">Importancia</a>
+
+    </nav>
+
+    </header>
+
+    <section id="inicio" class="seccion">
+        <h2>¿Qué es el Medio Ambiente?</h2>
+
+        <p>
+            El medio ambiente es todo lo que nos rodea:
+            árboles, animales, agua y aire.
+            Cuidarlo es responsabilidad de todos.
+            Cuando pensamos en el medio ambiente, es fácil imaginar bosques lejanos o documentales de televisión, pero la realidad es que el medio ambiente es nuestra casa común, el aire que llena tus pulmones cada mañana, el agua con la que te preparas el café y la tierra que sostiene tus pasos. No es un escenario decorativo que está "allá afuera", sino una red viva y sumamente generosa de la que formamos parte activa cada segundo; dependemos de ella para absolutamente todo, desde el alimento en nuestra mesa hasta el equilibrio emocional que nos da un paseo bajo los árboles. Lamentablemente, en nuestro afán de prisa y consumo, hemos olvidado tratar a la Tierra con el respeto que se merece, lastimándola con contaminación y descuido como si tuviéramos un repuesto. Cuidar el entorno no es una tarea aburrida de científicos ni una moda política; es un acto de amor propio y de empatía hacia los que amamos y hacia las generaciones que vienen, una invitación diaria a vivir con más conciencia, a consumir con respeto y a recordar que salvar el planeta es, en el fondo, salvarnos a nosotros mismos.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?q=80&w=1200&auto=format&fit=crop"
+             alt="Naturaleza">
+    </section>
+
+    <section id="clima" class="seccion">
+        <h2>¿Qué es el Cambio Climático?</h2>
+
+        <p>
+            El cambio climático es el aumento de la temperatura
+            del planeta causado principalmente por la contaminación,
+            el humo de las fábricas y la tala de árboles.
+            Imaginar el cambio climático solo como gráficos científicos, osos polares en fotos o números aburridos de un noticiero nos hace perder de vista lo más importante: este problema tiene que ver con nuestra propia supervivencia y el futuro de la gente que amamos. En palabras simples, la Tierra tiene una especie de manta natural llamada atmósfera que mantiene una temperatura perfecta para la vida, pero al llenar el aire con el humo de nuestras fábricas, autos y la quema de combustibles, hemos hecho que esa manta se vuelva demasiado gruesa. El planeta hoy tiene fiebre, y esa fiebre no es una predicción para el próximo siglo, sino algo que ya sentimos cuando sufrimos olas de calor insoportables, cuando vemos lluvias impredecibles que destruyen cosechas enteros, o cuando tormentas cada vez más agresivas golpean nuestras ciudades. Es doloroso aceptar que nosotros mismos causamos este desequilibrio, pero esa misma realidad nos da el poder de arreglarlo; no se trata de salvar una roca flotante en el espacio, sino de proteger los lugares donde crecimos, garantizar que la raza humana tengan agua limpia y aprender a vivir en armonía con el único hogar que tenemos.
+        </p>
+
+        <ul>
+            <li> Aumento de temperatura</li>
+            <li> Derretimiento de glaciares</li>
+            <li> Fenómenos naturales más fuertes</li>
+            <li> Incendios forestales</li>
+        </ul>
+    </section>
+
+    <section id="cuidados" class="seccion">
+        <h2>¿Cómo Cuidar el Medio Ambiente?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>♻️ Reciclar</h3>
+                <p>Separar los residuos ayuda a reducir la contaminación.</p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Ahorrar Agua</h3>
+                <p>Cerrar la llave cuando no se usa evita desperdicios.</p>
+            </div>
+
+            <div class="card">
+                <h3>🚲 Usar Bicicleta</h3>
+                <p>Reduce el humo de los vehículos y cuida el aire.</p>
+            </div>
+
+            <div class="card">
+                <h3>🌳 Plantar Árboles</h3>
+                <p>Los árboles producen oxígeno y ayudan al planeta.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="importancia" class="seccion">
+        <h2>¿Por Qué es Importante?</h2>
+
+        <p>
+            Proteger el medio ambiente ayuda a conservar la vida,
+            proteger los animales y mejorar nuestra salud.
+            También garantiza un mejor futuro para las próximas generaciones.Detener el cambio climático es vital porque nuestra propia supervivencia depende de ello. No estamos salvando un planeta desierto; estamos protegiendo el agua que bebemos, la comida que cultivamos y los lugares seguros donde construimos nuestras vidas.
+            Lo que está en juego para nosotros
+        <ul>
+        <li>Nuestra alimentación: El clima loco destruye cosechas enteras y mata ganado, lo que encarece los alimentos y amenaza el suministro de comida mundial.</li>
+            
+           <li> Nuestra salud: El calor extremo es peligroso para el cuerpo humano, y el caos climático facilita la propagación de enfermedades y virus.</li>
+            
+           <li> Nuestros hogares: Las inundaciones, incendios forestales y tormentas más fuertes destruyen barrios enteros y obligan a millones de personas a dejarlo todo.</li>
+            
+            <li> Nuestra economía: Reparar los desastres naturales cuesta fortunas y destruye empleos en la agricultura, la pesca y el turismo.</li>
+            
+            <li> La vida misma: Estamos perdiendo miles de especies de animales y plantas que limpian el agua, polinizan los cultivos y mantienen el planeta vivo.</li>
+        </ul>
+        </p>
+    </section>
+
+    <script>
+
+function mostrarMenu(){
+
+    let menu = document.getElementById("menu");
+
+    if(menu.style.display == "flex"){
+        menu.style.display = "none";
+    }
+
+    else{
+        menu.style.display = "flex";
+    }
+
+}
+
+</script>
+
+
+</body>
+</html>
